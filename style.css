@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #0ea5e9;
+    --gray: #d1d5db;
+    --orange: orange;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-template-rows: 20% 1fr;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: var(--blue);
+    grid-row: 1 / -1;
+}
+
+.content {
+    background-color: var(--gray);
+    grid-row: 2;
+    grid-column: 2;
+}
