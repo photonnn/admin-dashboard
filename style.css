@@ -20,6 +20,13 @@ body {
     height: 100vh;
 }
 
+/** 
+
+    
+    SIDEBAR 
+
+
+**/
 .sidebar {
     background-color: var(--blue);
     grid-row: 1 / -1;
@@ -35,7 +42,7 @@ body {
 
 .sidebar div:not(.logo):hover {
     font-size: 1.5rem;
-    
+
 }
 
 .sidebar a {
@@ -46,16 +53,9 @@ body {
     align-items: center;
 }
 
-.content {
-    background-color: var(--gray);
-    grid-row: 2;
-    grid-column: 2;
-}
-
 img {
     /* Change color to white (svg) */
-    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(75deg) 
-        brightness(105%) contrast(101%);
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(75deg) brightness(105%) contrast(101%);
 }
 
 .logo img {
@@ -64,3 +64,14 @@ img {
     margin-left: -10px;
 }
 
+/** 
+
+    CONTENT 
+
+
+**/
+.content {
+    background-color: var(--gray);
+    grid-row: 2;
+    grid-column: 2;
+}
